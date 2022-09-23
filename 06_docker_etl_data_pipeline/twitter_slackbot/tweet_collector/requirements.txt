@@ -1,0 +1,4 @@
+pymongo
+faker
+tweepy==4.4.0
+dnspython
