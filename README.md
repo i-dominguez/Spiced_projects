@@ -8,7 +8,9 @@ This repository contains the projects I completed during a Data Science Bootcamp
 
 This animated scatterplot visualizes the changes of countries' fertility rate, life expactancy and population between 1850 and 2015. The size of the scatters represents the population of each country, the colours shows in which continent they can be found.
 
-Data source: [Gapminder Foundation](https://www.gapminder.org/data/)
+Data source: [Gapminder Foundation](https://www.gapminder.org/data/).
+
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/01_data_visualization).
 
 
 ## 02. Supervised Machine Learning: Classification - Kaggle's Titanic Challenge
@@ -23,11 +25,15 @@ The data was trained on Scikit-learn's LogisticRegression and RandomForestClassi
 
 Data source: [Kaggle: Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview).
 
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/02_titanic_classification).
+
 ## 03. Supervised Machine Learning: Regression - Bicycle Rental Forecast
 
 The goal of this project is to build a regression model, in order to predict the total number of rented bycicles in each hour based on time and weather features, optimizing the accuracy of the model for RMSLE, using Kaggle's "Bike Sharing Demand" dataset that provides hourly rental data spanning two years.
 
 After extracting datetime features, highly correlated variables were dropped via feature selection (correlation analysis) to avoid multicollienarity. I compared more linear regression models with one another (PossionRegressor, PolinomialFeatures, Lasso, Ridge, RandomForestRegressor) based on R2 and RMSLE scores. After evaluating the different models, I kept the RandomForestRegressor, and applied GridSearchCV and cross validation to ensure the best fit, finally submitted the predictions with 0.47210 RMSLE.
+
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/03_regression_bicycle_rental).
 
 ## 04. Natural Language Processing (NLP): Text Classification
 
@@ -40,6 +46,7 @@ In the model pipeline, Tfidfvectorizer (TF-IDF) transforms the words of the corp
 Versions
 I built 2 versions: - Version 1 extracts song lyrics directly from the htmls. - Version 2 extracts, downloads and saves song lyrics locally in separate .txt files. Then all lyrics will be loaded from the .txt files to create the corpus.
 
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/04_nlp_text_classification).
 
 ## 06. The Data Pipeline: Tweets Sentiment Analysis
 
@@ -49,13 +56,15 @@ The challenge of this Data Engineering project was to build a Dockerized Data Pi
 
 For the sentiment analysis, SentimentIntensityAnalyzer() of the the Vader library (Valence Aware Dictionary and sEntiment Reasoner) was used.
 
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/06_docker_etl_data_pipeline/twitter_slackbot).
 
 ## 07. Time Series Analysis: Temperature Forecast
 
 In this project, I applied the ARIMA model for a short-term temperature forecast. After visualizing the trend, the seasonality and the remainder of the time series data (daily mean temperature in Berlin-Tempelhof from 1979-2020), I run tests such as ADF for checking stationarity (time dependence).
 
-
 Data source: [European Climate Assessment Dataset](https://www.ecad.eu/).
+
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/07_time_series).
 
 ## 08. Markov Chain Monte Carlo (MCMC): Predicting and simulating customer behaviour in a supermarket
 
@@ -95,6 +104,10 @@ The folder of this project can be found [here](https://github.com/i-dominguez/sp
 The movie recommender is based on the Collaborative Filtering approach, and creates predictions for movie ratings with Matrix Factorization technique (NMF). It is trained on the 'small' dataset of [MovieLens](https://grouplens.org/datasets/movielens/).
 
 The online user-interface is built and deployed with Streamlit and can be found here.
+
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/10_recommender_system).
+
+
 
 
 
