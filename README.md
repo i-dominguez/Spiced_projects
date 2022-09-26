@@ -132,6 +132,8 @@ I trained different models, such as logistic regression, random forest, naive ba
 I pickled the best model and then build and deployed it on [Streamlit](https://i-dominguez-text-difficulty-app-l9fuvk.streamlitapp.com/).
 
 
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/final_project).
+
 
 
 
