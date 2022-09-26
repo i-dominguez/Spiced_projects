@@ -1,6 +1,6 @@
 ![Image](https://github.com/i-dominguez/spiced_projects/blob/main/spiced_logo.png)
 
-This repository contains the projects I completed during a Data Science Bootcamp at SPICED Academy in Berlin from September to December 2021.
+This repository contains the projects I completed during a Data Science Bootcamp at SPICED Academy in Berlin from June to September 2022.
 
 ## 01. Visual Data Analysis - Animated Scatterplot
 
