@@ -50,7 +50,7 @@ The folder of this project can be found [here](https://github.com/i-dominguez/sp
 
 ## 05. Building an Online Dashboard with Metabase, PostgreSQL and AWS
 
-In this project, I built an interactive online dashboard displaying sales data of a fictional company (Northwind Traders). The database was created from .csv files with PostgreSQL and hosted in a cloud database (AWS RDS). The dashboard was created with Metabase that was installed on a virtual server (AWS RC2) and connected to the cloud database.
+In this project, I built an interactive online dashboard displaying sales data of a fictional company (Northwind Traders). The database was created from .csv files with PostgreSQL and hosted in a cloud database (AWS RDS). The dashboard was created with Metabase that was installed on a virtual server (AWS EC2) and connected to the cloud database.
 
 
 ## 06. The Data Pipeline: Tweets Sentiment Analysis
