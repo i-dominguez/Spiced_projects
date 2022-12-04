@@ -56,14 +56,14 @@ In this project, I built an interactive online dashboard displaying sales data o
 
 The project included the following tasks:
 
-1. Creating a local PostgreSQL database, importing Northwind data from .csv files (create_tables.sql, countries.sql), adding primary keys and connecting tables with foreign keys (entity-relationship diagram)
+1. Creating a local PostgreSQL database, importing Northwind data from .csv files ([create_tables.sql](https://github.com/i-dominguez/spiced_projects/blob/main/05_dashboard/create_tables.sql), adding primary keys and connecting tables with foreign keys ([entity-relationship diagram](https://github.com/i-dominguez/spiced_projects/blob/main/05_dashboard/images/er_diagram_northwind.png))
 2. Business Analytics with SQL queries (data_analysis_northwind.sql )
 3. Cloud database: Setting up an AWS RDS instance, importing Northwind database to the cloud database (aws_rds_installation.sh )
 4. Virtual server: Setting up an AWS EC2 instance and installing Metabase on it and connecting it to the cloud database (aws_ec2_installation.sh )
 5. Building an interactive dashboard with Metabase (visualizations, filtering countries, filtering date, click behaviour)
 <div>(Due to costs, both the AWS database and the virtual server has been deleted, therefore the dashboard is not available online anymore.)</div><br>
 
-The folder of this project can be found here.
+The folder of this project can be found [here](https://github.com/i-dominguez/spiced_projects/tree/main/05_dashboard).
 
 ## 06. The Data Pipeline: Tweets Sentiment Analysis
 
